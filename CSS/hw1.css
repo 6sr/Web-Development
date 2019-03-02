@@ -1,0 +1,20 @@
+header {
+	background-color: #FFFF00;
+}
+h1 {
+	color: #FF0000;
+	text-align: center;
+}
+h2 {
+	color: #0000FF;
+}
+section {
+	background-color: #008000;
+}
+a {
+	color: #FFC0CB;
+	background-color: #00FFFF;
+}
+img {
+	display: none;
+}

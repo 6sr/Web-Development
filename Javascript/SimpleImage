@@ -24,6 +24,6 @@ print(img);
 for(var pixel of img.values()){
     var j = pixel.getRed();
     pixel.setRed(pixel.getGreen());
-    pixel.setRed(j);
+    pixel.setGreen(j);
 }
-print(img);    
+print(img);

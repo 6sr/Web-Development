@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>SR - Latitude & Longitude</title> 
+		<style> 
+			p { 
+				font-size:15px; 
+				margin-left:10px; 
+			} 
+		</style> 
+	</head> 
+	
+	<body> 
+		<p>Displaying location using Latitude and Longitude</p> 
+    <p>Using global navigator object - navigator.geolocation</p>
+		<button onclick="getlocation()">Click</button> 
+		<p id="loc"></p> 
+		<script> 
+		var variable1 = document.getElementById("loc"); 
+		function getlocation(){ 
+				navigator.geolocation.getCurrentPosition(showLocation); 
+		} 
+		function showLocation(pos){ 
+				variable1.innerHTML = "Latitude: " + pos.coords.latitude + 
+				"<br>Longitude: " + pos.coords.longitude; 
+			} 
+		</script> 
+	</body> 
+</html>					 

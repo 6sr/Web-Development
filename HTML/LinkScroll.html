@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.scroll-box {
+			height: 5vw;
+			width: 50vw;
+			/*margin-left: 40%;*/
+		}
+		.scroll-box-list > li {
+			padding: 0.5vw 0;
+		}
+		.scroll-box-heading {
+			font-size: 1.8vw;
+			color: #00cccc;
+		}
+		hr {
+			width: 15%;
+			height: 0.1vw;
+			margin-left: 0;
+			border-color: #009999;
+			background-color: #00bbbb;
+		}
+
+		li {
+			color: #000050;
+			font-size:1.3vw;
+			list-style-type: none;
+			position: relative;
+		}
+		li:before {
+			content: "\25BA \0020";
+			font-size: 12px;
+		}
+
+		/*
+		.scroll-box:hover {
+			opacity: 0;
+		}
+		*/
+			
+	</style>
+</head>
+<body>
+	<div class="scroll-box-heading">
+		<hr>Latest News
+	</div><br>
+	<div class="scroll-box">
+	<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" height=190px;>
+		<ul class="scroll-box-list">
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			incididunt ut labore et dolore magna aliqua.
+			<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+			pariatur.
+			<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+			deserunt mollit anim id est laborum.
+
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			incididunt ut labore et dolore magna aliqua.
+			<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+			pariatur.
+			<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+			deserunt mollit anim id est laborum.
+		</ul>
+	</marquee>
+	</div>
+</body>
+</html>

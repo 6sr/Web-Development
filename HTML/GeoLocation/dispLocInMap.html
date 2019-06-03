@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>SR - Latitude & Longitude Map</title> 
+		<style> 
+			p { 
+				font-size:15px; 
+				margin-left:10px; 
+			} 
+		</style> 
+	</head> 
+	
+	<body> 
+		<p>Displaying location using Latitude and Longitude in Map</p> 
+    <p>Using global navigator object - navigator.geolocation</p>
+		<button onclick="getlocation()">Click</button> 
+		<div id="loc" style="width: 500px; height: 500px;"> 
+			
+		</div> 
+		<script src="https://maps.google.com/maps/api/js?sensor=false"> 
+			
+		</script> 
+		<script type="text/javascript"> 
+		function getlocation(){ 
+			if(navigator.geolocation){ 
+				navigator.geolocation.getCurrentPosition(showLocation, errorHandle); 
+			} 
+		} 
+		function showLocation(pos){ 
+			lat = pos.coords.latitude; 
+			long = pos.coords.longitude; 
+			var latlong = new google.maps.LatLng(lat, long); 
+			var Options = { 
+				center: latlong, 
+				zoom: 10, 
+				mapTypeControl: true, 
+				navigationControlOptions: {style:google.maps.NavigationControlStyle.SMALL} 
+			} 
+			var mapg = new google.maps.Map(document.getElementById("loc"), Options); 
+			var markerg = new google.maps.Marker({position:latlong, map:mapg, title:"Current Location"}); 
+		} 
+		
+		function errorHandle(error) { 
+			switch(error.code) { 
+				case error.PERMISSION_DENIED: 
+					variable1.innerHTML = "Permission denied";
+					break; 
+				case error.POSITION_UNAVAILABLE: 
+					variable1.innerHTML = "Location not found";
+					break; 
+				case error.TIMEOUT: 
+					variable1.innerHTML = "Request timed out";
+					break; 
+				case error.UNKNOWN_ERROR: 
+					variable1.innerHTML = "Unknown error";
+					break; 
+			} 
+		} 
+		</script> 
+	</body> 
+</html>						 

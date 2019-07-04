@@ -1,0 +1,66 @@
+https://www.tutorialspoint.com/nodejs/nodejs_npm.htm
+
+npm install express -g
+//Installs 'express' module globally, so cannot be accessed in code using require()
+
+npm install express
+//Installs 'express' module locally in node_modules directory, so can be accessed in code using require()
+
+npm uninstall express
+
+package.json is present in the root directory of any Node application/module and is used to define the properties of a package. 
+Let's open package.json of express package present in node_modules/express/
+
+Look at the content of /node_modules/ directory or type the following command −
+$ npm ls
+$ npm ls -g
+
+Update module - 
+    Update package.json and change the version of the dependency to be updated and run the following command.
+    $ npm update express
+
+Search module - 
+    Search a package name using NPM.
+    $ npm search express
+
+https://www.tutorialspoint.com/execute_nodejs_online.php
+https://www.tutorialspoint.com/nodejs_terminal_online.php
+
+https://stackoverflow.com/questions/14886161/nodejs-how-return-different-content-types-with-same-response-text-and-image
+https://www.quora.com/What-is-the-use-of-response-writeHead-in-Node-js
+
+
+Create a Module
+Creating a module requires package.json to be generated. Let's generate package.json using NPM, which will generate the basic 
+skeleton of the package.json.
+    $ npm init
+    This utility will walk you through creating a package.json file.
+    It only covers the most common items, and tries to guess sane defaults.
+
+    See 'npm help json' for definitive documentation on these fields
+    and exactly what they do.
+
+    Use 'npm install <pkg> --save' afterwards to install a package and
+    save it as a dependency in the package.json file.
+
+    Press ^C at any time to quit.
+    name: (webmaster)
+
+You will need to provide all the required information about your module. You can take help from the above-mentioned package.json 
+file to understand the meanings of various information demanded. Once package.json is generated, use the following command to 
+register yourself with NPM repository site using a valid email address.
+    $ npm adduser
+    Username: mcmohd
+    Password:
+    Email: (this IS public) mcmohd@gmail.com
+
+It is time now to publish your module −
+$ npm publish
+
+If everything is fine with your module, then it will be published in the repository and will be accessible to install using NPM 
+like any other Node.js module.
+
+
+
+
+

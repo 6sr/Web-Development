@@ -1,0 +1,4 @@
+Hello User,
+Welcome to the world of NodeJS. This is a text file for testing NodeJS.
+Regards,
+SR

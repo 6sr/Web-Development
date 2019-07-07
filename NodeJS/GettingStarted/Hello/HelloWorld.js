@@ -7,7 +7,7 @@ http.createServer(
         // HTTP Status: 200 : OK
         // Content Type: text/plain
         response.writeHead(200, {'Content-Type': 'text/plain'});
-        request.on("data",function() {}); // a noop   
+        request.on("data",function() {}); // a noop
         // Send the response body as "Hello World"
         response.end('Hello World\n');
     }

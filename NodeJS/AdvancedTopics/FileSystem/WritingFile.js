@@ -27,4 +27,4 @@ function writingFile() {
 writingFile();
 //fs.writeFile(filename, data[, options], callback)
 
-
+//fs.appendFile(filepath, data, callback)

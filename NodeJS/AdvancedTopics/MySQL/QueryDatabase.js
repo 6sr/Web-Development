@@ -24,16 +24,17 @@ dbName = "";
 sql = "CREATE DATABASE NodeJSdb";
 
 //For below queries select a database
-//dbName = "NodeJSdb";
+dbName = "NodeJSdb";
 
 // Creating Table
-//sql = "CREATE TABLE customers (id INT, name VARCHAR(255), address VARCHAR(255))";
-//sql = "CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))";
+//sql = "CREATE TABLE customers (id INT, name VARCHAR(255), address VARCHAR(255), favorite_product INT)";
+sql = "CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255), favorite_product INT)";
+sql = "CREATE TABLE products (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255))";
 //sql = "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY";
 
 // Insert into Table
-//sql = "INSERT INTO customers (name, address) VALUES ('Company Inc', 'Highway 37')";
-
+SQL = "INSERT INTO products (name) VALUES ('Chocolate Ice Cream')";
+sql = "INSERT INTO customers (name, address, favorite_product) VALUES ('Company Inc', 'Highway 37', 1)";
 
 querySQL(sql,dbName);
 

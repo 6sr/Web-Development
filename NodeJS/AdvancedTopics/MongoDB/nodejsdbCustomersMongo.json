@@ -1,0 +1,14 @@
+{"_id":{"$oid":"5d2364420ed7ee05b8debaad"},"name":"Company Inc","address":"Highway 37","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6a3"},"name":"John","address":"Highway 71","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6a4"},"name":"Peter","address":"Lowstreet 4","favorite_product":2}
+{"_id":{"$oid":"5d23663faabd611888c2d6a5"},"name":"Amy","address":"Apple st 652","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6a7"},"name":"Michael","address":"Valley 345","favorite_product":2}
+{"_id":{"$oid":"5d23663faabd611888c2d6a8"},"name":"Sandy","address":"Ocean blvd 2","favorite_product":2}
+{"_id":{"$oid":"5d23663faabd611888c2d6a9"},"name":"Betty","address":"Green Grass 1","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6aa"},"name":"Richard","address":"Sky st 331","favorite_product":3}
+{"_id":{"$oid":"5d23663faabd611888c2d6ab"},"name":"Susan","address":"One way 98","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6ac"},"name":"Vicky","address":"Yellow Garden 2","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6ad"},"name":"Ben","address":"Park Lane 38","favorite_product":1}
+{"_id":{"$oid":"5d23663faabd611888c2d6ae"},"name":"William","address":"Central st 954","favorite_product":2}
+{"_id":{"$oid":"5d23663faabd611888c2d6af"},"name":"Chuck","address":"Main Road 989","favorite_product":3}
+{"_id":{"$oid":"5d23663faabd611888c2d6b0"},"name":"Viola","address":"Sideway 1633","favorite_product":3}

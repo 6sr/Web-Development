@@ -28,6 +28,8 @@ sql = "SELECT * FROM customers WHERE address = 'Park Lane 38'";
 //Use the '%' wildcard to represent zero, one or multiple characters
 sql = "SELECT * FROM customers WHERE address LIKE 'S%'";
 
+mysql(sql,dbName);
+
 // Escaping Query Values
 // When query values are variables provided by the user, you should escape the values.
 // This is to prevent SQL injections, which is a common web hacking technique to destroy or misuse your database.

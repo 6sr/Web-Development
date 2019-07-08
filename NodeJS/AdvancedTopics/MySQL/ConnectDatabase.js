@@ -13,6 +13,8 @@ exports.mysqlConnection = function (dbName) {
 };
 
 /*
+var mysql = require('mysql');
+
 var con = mysql.createConnection(
     {
         host: "localhost",

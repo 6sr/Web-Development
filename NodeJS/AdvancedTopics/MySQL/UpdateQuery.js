@@ -22,19 +22,24 @@ dbName = "NodeJSdb";
 sql = "UPDATE customers SET address = 'Canyon 123' WHERE address = 'Valley 345'";
 
 querySQL(sql,dbName);
+// Address of element at id = 6 is changed to 'Canyon 123' from 'Valley 345'
 
 /*
 console.log(result.affectedRows)
 // Prints "1"
 
-result object
-{
+// Output
+Connected!
+Result:
+OkPacket {
   fieldCount: 0,
   affectedRows: 1,
   insertId: 0,
   serverStatus: 34,
   warningCount: 0,
-  message: '(Rows matched: 1 Changed: 1 Warnings: 0',
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
   protocol41: true,
-  changedRows: 1
-}*/
+  changedRows: 1 }
+1 record(s) updated
+
+*/

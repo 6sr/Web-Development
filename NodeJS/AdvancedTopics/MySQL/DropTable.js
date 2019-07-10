@@ -30,26 +30,26 @@ querySQL(sql,dbName);
 Difference in warningCount i.e. 0 for one and 1 for another
 // If table exist
 {
-  fieldCount: 0,
-  affectedRows: 0,
-  insertId: 0,
-  serverstatus: 2,
-  warningCount: 0,
-  message: '',
-  protocol41: true,
-  changedRows: 0
+fieldCount: 0,
+affectedRows: 0,
+insertId: 0,
+serverstatus: 2,
+warningCount: 0,
+message: '',
+protocol41: true,
+changedRows: 0
 }
 
 // If table does not exist
 {
-  fieldCount: 0,
-  affectedRows: 0,
-  insertId: 0,
-  serverstatus: 2,
-  warningCount: 1,
-  message: '',
-  protocol41: true,
-  changedRows: 0
+fieldCount: 0,
+affectedRows: 0,
+insertId: 0,
+serverstatus: 2,
+warningCount: 1,
+message: '',
+protocol41: true,
+changedRows: 0
 }
 */
 

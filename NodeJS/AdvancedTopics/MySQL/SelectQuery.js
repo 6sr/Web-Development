@@ -51,72 +51,72 @@ Result:
     name: 'Company Inc',
     address: 'Highway 37',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 2,
     name: 'John',
     address: 'Highway 71',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 3,
     name: 'Peter',
     address: 'Lowstreet 4',
     favorite_product: 2 },
-  RowDataPacket {
+RowDataPacket {
     id: 4,
     name: 'Amy',
     address: 'Apple st 652',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 5,
     name: 'Hannah',
     address: 'Mountain 21',
     favorite_product: 3 },
-  RowDataPacket {
+RowDataPacket {
     id: 6,
     name: 'Michael',
     address: 'Valley 345',
     favorite_product: 2 },
-  RowDataPacket {
+RowDataPacket {
     id: 7,
     name: 'Sandy',
     address: 'Ocean blvd 2',
     favorite_product: 2 },
-  RowDataPacket {
+RowDataPacket {
     id: 8,
     name: 'Betty',
     address: 'Green Grass 1',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 9,
     name: 'Richard',
     address: 'Sky st 331',
     favorite_product: 3 },
-  RowDataPacket {
+RowDataPacket {
     id: 10,
     name: 'Susan',
     address: 'One way 98',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 11,
     name: 'Vicky',
     address: 'Yellow Garden 2',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 12,
     name: 'Ben',
     address: 'Park Lane 38',
     favorite_product: 1 },
-  RowDataPacket {
+RowDataPacket {
     id: 13,
     name: 'William',
     address: 'Central st 954',
     favorite_product: 2 },
-  RowDataPacket {
+RowDataPacket {
     id: 14,
     name: 'Chuck',
     address: 'Main Road 989',
     favorite_product: 3 },
-  RowDataPacket {
+RowDataPacket {
     id: 15,
     name: 'Viola',
     address: 'Sideway 1633',
@@ -137,7 +137,7 @@ Fields:
     default: undefined,
     zeroFill: false,
     protocol41: true },
-  FieldPacket {
+FieldPacket {
     catalog: 'def',
     db: 'nodejsdb',
     table: 'customers',
@@ -152,7 +152,7 @@ Fields:
     default: undefined,
     zeroFill: false,
     protocol41: true },
-  FieldPacket {
+FieldPacket {
     catalog: 'def',
     db: 'nodejsdb',
     table: 'customers',
@@ -167,7 +167,7 @@ Fields:
     default: undefined,
     zeroFill: false,
     protocol41: true },
-  FieldPacket {
+FieldPacket {
     catalog: 'def',
     db: 'nodejsdb',
     table: 'customers',

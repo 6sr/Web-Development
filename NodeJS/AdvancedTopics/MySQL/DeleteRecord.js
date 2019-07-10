@@ -30,24 +30,24 @@ console.log(result.affectedRows)
 Connected!
 Result:
 OkPacket {
-  fieldCount: 0,
-  affectedRows: 1,
-  insertId: 0,
-  serverStatus: 34,
-  warningCount: 0,
-  message: '',
-  protocol41: true,
-  changedRows: 0 }
+fieldCount: 0,
+affectedRows: 1,
+insertId: 0,
+serverStatus: 34,
+warningCount: 0,
+message: '',
+protocol41: true,
+changedRows: 0 }
 
 result object
 {
-  fieldCount: 0,
-  affectedRows: 1,
-  insertId: 0,
-  serverStatus: 34,
-  warningCount: 0,
-  message: '',
-  protocol41: true,
-  changedRows: 0
+fieldCount: 0,
+affectedRows: 1,
+insertId: 0,
+serverStatus: 34,
+warningCount: 0,
+message: '',
+protocol41: true,
+changedRows: 0
 }
 */

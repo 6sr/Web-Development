@@ -30,11 +30,11 @@ sql = "SELECT customers.name AS user, products.name AS favorite FROM customers J
 //Replace 'JOIN' by 'LEFT JOIN'
 /*
 [
-  { user: 'John', favorite: 'Chocolate Heaven' },
-  { user: 'Peter', favorite: 'Chocolate Heaven' },
-  { user: 'Amy', favorite: 'Tasty Lemons' },
-  { user: 'Hannah', favorite: null },
-  { user: 'Michael', favorite: null }
+{ user: 'John', favorite: 'Chocolate Heaven' },
+{ user: 'Peter', favorite: 'Chocolate Heaven' },
+{ user: 'Amy', favorite: 'Tasty Lemons' },
+{ user: 'Hannah', favorite: null },
+{ user: 'Michael', favorite: null }
 ]
 */
 
@@ -44,10 +44,10 @@ sql = "SELECT customers.name AS user, products.name AS favorite FROM customers J
 //Replace 'JOIN' by 'RIGHT JOIN'
 /*
 [
-  { user: 'John', favorite: 'Chocolate Heaven' },
-  { user: 'Peter', favorite: 'Chocolate Heaven' },
-  { user: 'Amy', favorite: 'Tasty Lemons' },
-  { user: null, favorite: 'Vanilla Dreams' }
+{ user: 'John', favorite: 'Chocolate Heaven' },
+{ user: 'Peter', favorite: 'Chocolate Heaven' },
+{ user: 'Amy', favorite: 'Tasty Lemons' },
+{ user: null, favorite: 'Vanilla Dreams' }
 ]
 */
 
@@ -57,19 +57,19 @@ querySQL(sql,dbName);
 Connected!
 Result:
 [ RowDataPacket { user: 'Company Inc', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'John', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'Peter', favorite: 'Lemonade' },
-  RowDataPacket { user: 'Amy', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'Michael', favorite: 'Lemonade' },
-  RowDataPacket { user: 'Sandy', favorite: 'Lemonade' },
-  RowDataPacket { user: 'Betty', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'Richard', favorite: 'Chole Bhature' },
-  RowDataPacket { user: 'Susan', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'Vicky', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'Ben', favorite: 'Chocolate Ice Cream' },
-  RowDataPacket { user: 'William', favorite: 'Lemonade' },
-  RowDataPacket { user: 'Chuck', favorite: 'Chole Bhature' },
-  RowDataPacket { user: 'Viola', favorite: 'Chole Bhature' } ]
+RowDataPacket { user: 'John', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'Peter', favorite: 'Lemonade' },
+RowDataPacket { user: 'Amy', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'Michael', favorite: 'Lemonade' },
+RowDataPacket { user: 'Sandy', favorite: 'Lemonade' },
+RowDataPacket { user: 'Betty', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'Richard', favorite: 'Chole Bhature' },
+RowDataPacket { user: 'Susan', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'Vicky', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'Ben', favorite: 'Chocolate Ice Cream' },
+RowDataPacket { user: 'William', favorite: 'Lemonade' },
+RowDataPacket { user: 'Chuck', favorite: 'Chole Bhature' },
+RowDataPacket { user: 'Viola', favorite: 'Chole Bhature' } ]
 Fields:
 [ FieldPacket {
     catalog: 'def',
@@ -86,7 +86,7 @@ Fields:
     default: undefined,
     zeroFill: false,
     protocol41: true },
-  FieldPacket {
+FieldPacket {
     catalog: 'def',
     db: 'nodejsdb',
     table: 'products',

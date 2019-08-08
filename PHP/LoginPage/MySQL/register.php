@@ -34,7 +34,7 @@ if(isset($_POST['Register'])){
 	move_uploaded_file($temp_name,$filepath);
 	$query2="insert into loginTable (username,password,img) values('$username','$password','$img')";
 	$runquery2=mysqli_query($con,$query2);
-	if($runquery2){
+	if($runquery2) {
 		echo'<script>alert("Account has been registered")</script>';
 	}
 }
